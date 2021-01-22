@@ -89,9 +89,7 @@ function draw() {
 	 Body.setStatic(packageBody,false)
  }
 
- if(packageSprite.isTouching(boxBase)){
-	packageSprite.velocityX = 0;
- }
+ 
 
   
   drawSprites();
